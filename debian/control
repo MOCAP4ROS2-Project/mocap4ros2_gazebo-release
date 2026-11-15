@@ -1,0 +1,12 @@
+Source: ros-lyrical-mocap4r2-gz-demos
+Section: misc
+Priority: optional
+Maintainer: "Francisco Martín Rico" <fmrico@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-ros-workspace
+Homepage: https://mocap4ros2-project.github.io
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-mocap4r2-gz-demos
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-launch-yaml, ros-lyrical-mocap4r2-gz-plugin, ros-lyrical-mocap4r2-marker-viz, ros-lyrical-mocap4r2-motion-tools, ros-lyrical-mocap4r2-optitrack-driver, ros-lyrical-mocap4r2-robot-gt, ros-lyrical-ros-gz-bridge, ros-lyrical-ros-gz-sim, ros-lyrical-rviz2, ros-lyrical-ros-workspace
+Description: Gazebo demos of MOCAP4ROS2: robot ground truth and human motion in a simulated mocap room, streamed as MOCAP4ROS2 or as OptiTrack Motive
