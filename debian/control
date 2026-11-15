@@ -1,0 +1,12 @@
+Source: ros-jazzy-mocap4r2-gz-plugin
+Section: misc
+Priority: optional
+Maintainer: "Francisco Martín Rico" <fmrico@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-gz-plugin-vendor, ros-jazzy-gz-sim-vendor, ros-jazzy-lifecycle-msgs, ros-jazzy-mocap4r2-control, ros-jazzy-mocap4r2-interfaces, ros-jazzy-mocap4r2-optitrack-driver, ros-jazzy-rclcpp, ros-jazzy-ros-workspace
+Homepage: https://mocap4ros2-project.github.io
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-mocap4r2-gz-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-gz-plugin-vendor, ros-jazzy-gz-sim-vendor, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-launch-yaml, ros-jazzy-lifecycle-msgs, ros-jazzy-mocap4r2-control, ros-jazzy-mocap4r2-interfaces, ros-jazzy-mocap4r2-optitrack-driver, ros-jazzy-rclcpp, ros-jazzy-ros-gz-bridge, ros-jazzy-ros-gz-sim, ros-jazzy-ros-workspace
+Description: Gazebo plugin simulating a motion capture room: markers on links, streamed as a MOCAP4ROS2 system or as an OptiTrack Motive server
